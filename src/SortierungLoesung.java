@@ -6,7 +6,7 @@ public class SortierungLoesung {
         int tmp;
 
         for (int i = 0; i < zuSortieren.length; i++) {
-            for (int j = i; j < zuSortieren.length; j++) {
+            for (int j = i + 1; j < zuSortieren.length; j++) {
                 if (zuSortieren[j] < zuSortieren[i]) {
                     tmp = zuSortieren[i];
                     zuSortieren[i] = zuSortieren[j];
@@ -15,7 +15,7 @@ public class SortierungLoesung {
             }
         }
 
-        for (int ausgabe: zuSortieren) {
+        for (int ausgabe : zuSortieren) {
             System.out.println(ausgabe);
         }
     }
