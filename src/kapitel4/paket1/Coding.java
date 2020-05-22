@@ -1,11 +1,8 @@
-package kapitel5.paket1;
+package kapitel4.paket1;
 
 import kapitel4.uebung.Quadrat;
 import kapitel4.uebung.Rechteck;
-import kapitel5.paket2.KlasseInPaket2;
-
-import java.awt.*;
-import java.util.*;
+import kapitel4.paket2.KlasseInPaket2;
 
 public class Coding extends Object {
 

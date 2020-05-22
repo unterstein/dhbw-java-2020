@@ -64,6 +64,6 @@ public class LiveCoding {
         System.out.println(pkw2 instanceof AudiQ5);
 
         pkw2.anzahlBlinker = 4;
-        pkw2.blink();
+        pkw2.blinkeRechts();
     }
 }

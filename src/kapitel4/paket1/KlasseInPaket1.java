@@ -1,4 +1,4 @@
-package kapitel5.paket1;
+package kapitel4.paket1;
 
 public class KlasseInPaket1 {
 }
