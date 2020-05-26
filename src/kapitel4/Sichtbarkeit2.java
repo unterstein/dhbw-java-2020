@@ -2,7 +2,7 @@ package kapitel4;
 
 
 public class Sichtbarkeit2 extends Sichtbarkeit {
-    private int i = 7;
+    private volatile int i = 7;
 
     public Sichtbarkeit2() {
         int i = 4;

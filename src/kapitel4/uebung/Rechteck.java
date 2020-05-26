@@ -32,4 +32,12 @@ public class Rechteck {
     public void setBreite(int breite) {
         this.breite = breite;
     }
+
+    @Override
+    public String toString() {
+        return "Rechteck{" +
+                "laenge=" + laenge +
+                ", breite=" + breite +
+                '}';
+    }
 }

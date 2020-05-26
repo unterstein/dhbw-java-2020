@@ -23,5 +23,8 @@ public class ThisBeispiel {
         t.string = "Hallo!";
 
         System.out.println(t.getVariable());
+
+
+        LiveCoding.InnerClassStatic innerClassStatic = new LiveCoding.InnerClassStatic();
     }
 }
