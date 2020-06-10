@@ -17,7 +17,7 @@ public class AlteListe<T> {
     }
 
     public T elementAt(int index) {
-        if (size >= data.length) {
+        if (index >= data.length) {
             throw new ArrayIndexOutOfBoundsException();
         }
         return (T) data[index];
