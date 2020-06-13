@@ -1,6 +1,8 @@
 package kapitel3.model;
 
-public class Pkw implements SpezielleGroesse, Stapelbar {
+import java.io.Serializable;
+
+public class Pkw implements SpezielleGroesse, Stapelbar, Serializable {
     public int anzahlBlinker;
 
     public void blinkeRechts() {
